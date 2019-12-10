@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3cab90e8-b46c-48ba-9266-ff4ccbaa8331" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../KRITTER_JAVA_PROJECT" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumerBanking/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumerBanking/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumerBanking/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumerBanking/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumerBanking/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumerBanking/.pom.xml.swm" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumerBanking/.pom.xml.swn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumerBanking/.pom.xml.swo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumerBanking/.pom.xml.swp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumerBanking/consumerBanking.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumerBanking/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumerBanking/src/lib/ldapsdk-4.1.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumerBanking/src/main/java/com/companyname/bank/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumerBanking/src/test/java/com/companyname/bank/.AppTest.java.swo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumerBanking/src/test/java/com/companyname/bank/.AppTest.java.swp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumerBanking/src/test/java/com/companyname/bank/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumerBanking/target/classes/com/companyname/bank/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumerBanking/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumerBanking/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../consumerBanking/target/test-classes/com/companyname/bank/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../health/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../health/src/main/java/com/companyname/insurance/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../health/src/test/java/com/companyname/insurance/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-a2pp/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-a2pp/src/main/java/com/mycompany/app/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-a2pp/src/test/java/com/mycompany/app/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-app/.pom.xml.swp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-app/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-app/src/main/java/com/mycompany/app/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-app/src/test/java/com/mycompany/app/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-app/target/classes/com/mycompany/app/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-app/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-app/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-app/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-app/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-app/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-app/target/my-app-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-app/target/surefire-reports/TEST-com.mycompany.app.AppTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-app/target/surefire-reports/com.mycompany.app.AppTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-app/target/test-classes/com/mycompany/app/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-app2-tutorial/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/.idea/libraries/Maven__ch_qos_cal10n_cal10n_api_0_7_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/.idea/libraries/Maven__com_beust_jcommander_1_72.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/.idea/libraries/Maven__org_apache_extras_beanshell_bsh_2_0b6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/.idea/libraries/Maven__org_slf4j_slf4j_ext_1_6_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_13.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/.idea/libraries/Maven__org_testng_testng_6_14_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/Student.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/addr.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/mobile.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/my-library.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/src/main/java/com/library/app/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/src/main/java/com/library/app/Library_Abstract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/src/main/java/com/library/app/Library_Exception.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/src/main/java/com/library/app/Library_Files.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/src/main/java/com/library/app/Library_Inheritance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/src/main/java/com/library/app/Library_JDBC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/src/main/java/com/library/app/Library_Singleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/src/main/java/com/library/app/Library_Static.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/src/main/java/com/library/app/Loggin_SLF4J_Log4j.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/src/main/java/com/library/app/Math.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/src/test/java/com/library/app/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/src/test/java/com/library/app/MathTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/src/test/java/com/library/app/MathTests2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/classes/META-INF/my-library.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/classes/com/library/app/Address.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/classes/com/library/app/App$Deaneries.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/classes/com/library/app/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/classes/com/library/app/Attendance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/classes/com/library/app/Book.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/classes/com/library/app/Books.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/classes/com/library/app/CustomException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/classes/com/library/app/Issue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/classes/com/library/app/Library_Abstract.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/classes/com/library/app/Library_Exception.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/classes/com/library/app/Library_Files.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/classes/com/library/app/Library_Inheritance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/classes/com/library/app/Library_JDBC.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/classes/com/library/app/Library_Singleton.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/classes/com/library/app/Library_Static.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/classes/com/library/app/Locker.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/classes/com/library/app/Loggin_SLF4J_Log4j.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/classes/com/library/app/Math.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/classes/com/library/app/Mobile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/classes/com/library/app/Staff.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/classes/com/library/app/Stud.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/classes/com/library/app/Stude.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/classes/com/library/app/Studen.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/classes/com/library/app/Student.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/classes/com/library/app/Teacher.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/classes/com/library/app/Transact.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/classes/com/library/app/Transaction.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/my-library-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/TEST-com.library.app.AppTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/TEST-com.library.app.MathTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/bullet_point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/collapseall.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/com.library.app.AppTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/com.library.app.AppTest/Command line test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/com.library.app.AppTest/Command line test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/com.library.app.MathTests.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/com.library.app.MathTests/Command line test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/com.library.app.MathTests/Command line test.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/failed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/jquery-1.7.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/junitreports/TEST-com.library.app.MathTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/navigator-bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/old/com.library.app.AppTest/Command line test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/old/com.library.app.AppTest/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/old/com.library.app.AppTest/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/old/com.library.app.AppTest/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/old/com.library.app.AppTest/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/old/com.library.app.AppTest/methods-alphabetical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/old/com.library.app.AppTest/methods-not-run.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/old/com.library.app.AppTest/methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/old/com.library.app.AppTest/reporter-output.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/old/com.library.app.AppTest/testng.xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/old/com.library.app.AppTest/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/old/com.library.app.MathTests/Command line test.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/old/com.library.app.MathTests/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/old/com.library.app.MathTests/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/old/com.library.app.MathTests/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/old/com.library.app.MathTests/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/old/com.library.app.MathTests/methods-alphabetical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/old/com.library.app.MathTests/methods-not-run.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/old/com.library.app.MathTests/methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/old/com.library.app.MathTests/reporter-output.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/old/com.library.app.MathTests/testng.xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/old/com.library.app.MathTests/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/passed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/skipped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/testng-reports.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/testng-reports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/surefire-reports/testng.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/test-classes/com/library/app/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/test-classes/com/library/app/MathTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../my-library/target/test-classes/com/library/app/MathTests2.class" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1UmJfnQ2RgxLgzPoaawsBXTNlWB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../velocity" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Pets">
+    <configuration name="HelloWorld" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HelloWorld" />
+      <module name="veloapp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PetStoreEmail" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PetStoreEmail" />
+      <module name="veloapp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Pets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Pets" />
+      <module name="veloapp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Pets" />
+        <item itemvalue="Application.HelloWorld" />
+        <item itemvalue="Application.PetStoreEmail" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3cab90e8-b46c-48ba-9266-ff4ccbaa8331" name="Default Changelist" comment="" />
+      <created>1575955942254</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575955942254</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.vm" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
