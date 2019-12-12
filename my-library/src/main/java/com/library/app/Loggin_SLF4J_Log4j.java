@@ -6,10 +6,12 @@ import org.slf4j.LoggerFactory;
 import org.slf4j.profiler.Profiler;
 import org.slf4j.profiler.TimeInstrument;
 
+import java.io.FileWriter;
+import java.io.IOException;
+
 public class Loggin_SLF4J_Log4j {
 
-    public static void  main(String args[])
-    {
+    public static void  main(String args[]) throws IOException {
         BasicConfigurator.configure();
         Logger l = LoggerFactory.getLogger(Loggin_SLF4J_Log4j.class);
 
@@ -23,8 +25,7 @@ public class Loggin_SLF4J_Log4j {
 
     }
 
-    void profiler()
-    {
+    void profiler() throws IOException {
         Profiler p = new Profiler("PROFILER");
 
         p.start("Task 1");
@@ -35,7 +36,13 @@ public class Loggin_SLF4J_Log4j {
 
         TimeInstrument tm = p.stop();
 
-        tm.print();
+        //System.out.println(tm.toString());
+        //tm.print();
+
+        FileWriter f = new FileWriter("logging.txt");
+
+        f.write(tm.toString());
+        f.close();
 
 
     }

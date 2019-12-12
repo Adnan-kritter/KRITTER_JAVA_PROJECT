@@ -1,0 +1,4 @@
++ Profiler [PROFILER]
+|-- elapsed time                 [Task 1]    84.276 microseconds.
+|-- elapsed time                 [Task 2]    18.790 microseconds.
+|-- Total                      [PROFILER]   454.262 microseconds.
