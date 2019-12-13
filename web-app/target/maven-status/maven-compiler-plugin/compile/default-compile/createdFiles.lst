@@ -1,3 +1,7 @@
 com/webapp/Login.class
+com/webapp/MySearcher.class
 com/webapp/DemoServ2.class
 com/webapp/DemoServlet.class
+com/webapp/Logout.class
+com/webapp/ContextListener.class
+com/webapp/TestLog4jServlet.class
