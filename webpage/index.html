@@ -1,0 +1,411 @@
+<html> 
+	<head> 
+		<title>DOM WEBPAGE</title>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+		</script>
+		<style>
+			#fdiv{ 
+				font-size : 70px;
+				border-bottom : 3px solid gray;
+				padding : 15px;
+				margin : -7px;
+				font-family: Arial, Helvetica, sans-serif;	
+				background-color : white;
+				background-image : url("kritter.jpg");
+				background-size : 100% 100%;
+				background-repeat : no-repeat;
+				height : 250px;
+				color : azure;
+				font-weight : bold;
+				
+				
+			}
+			button{
+				font-size : 30px;
+				float : right;
+			}
+			.sdiv{
+				font-size : 30px;
+				padding-top : 30px;
+			}
+
+			#tdiv{
+				background-color : black;
+				border-top : 15px solid gray;
+				height : 60%;
+				color : white;
+				margin : -8px;
+				margin-bottom : -20px;
+			}
+
+			#tdiv input,textarea{
+			font-size : 25px;
+			width : 400px;
+			}
+
+
+			#hdiv,#select_action,#select_action_title_label,#add-title,#update-title,#add_button,#update_button,#add-body,#update-body,#close_button
+			{
+				display:none;
+			}
+
+			#hdiv  input[type=text] {
+				width : 500px;
+				height : 70px;
+				font-size : 25px;
+			}
+
+			input[type=button]
+			{
+				font-size : 30px;
+
+			}
+
+
+		</style>
+		<script type="text/javascript">
+			function close_edit()
+			{
+				document.getElementById("hdiv").style.display = "none";
+			}
+
+			function edit()
+			{
+				document.getElementById("hdiv").style.display = "block";
+			}
+
+
+
+			function show_select()
+			{
+				var selected_list = document.getElementById("select_content")
+				var selected = selected_list.options[selected_list.selectedIndex].value;
+
+				var selected_content = document.getElementById("select_action")
+				var typ = selected_content.options[selected_content.selectedIndex].value;
+
+				if(typ)
+				{
+					document.getElementById("select_action").value = "";
+				}
+
+				document.getElementById("update-title").style.display = "none";
+				document.getElementById("add-title").style.display = "none";
+				document.getElementById("add_button").style.display = "none";
+				document.getElementById("add-body").style.display = "none";
+				document.getElementById("update-body").style.display = "none";
+				document.getElementById("update_button").style.display = "none";
+				document.getElementById("close_button").style.display = "block";
+
+				document.getElementById("select_action_title_label").style.display = "block";
+				document.getElementById("select_action").style.display = "block";
+
+
+				if(!(selected == "fdiv" || selected == "sdiv"))
+					{
+						document.getElementById("select_action").style.display = "none";
+						document.getElementById("select_action_title_label").style.display = "none";
+						document.getElementById("close_button").style.display = "none";
+
+
+					}
+
+			}
+
+
+			function show_action()
+			{
+				var selected_list = document.getElementById("select_content")
+				var typ = selected_list.options[selected_list.selectedIndex].value;
+
+				var selected_action = document.getElementById("select_action")
+
+				var selected = selected_action.options[selected_action.selectedIndex].value;
+
+				if(selected == "New")
+					{
+
+
+						document.getElementById("add_button").style.display = "block";
+						document.getElementById("update_button").style.display = "none";
+						document.getElementById("update-body").style.display = "none";
+						document.getElementById("update-title").style.display = "none";
+
+						if(typ == "fdiv")
+						{
+							document.getElementById("add-title").style.display = "block";
+
+
+						}
+						else
+						{
+							document.getElementById("add-body").style.display = "block";
+							document.getElementById("add-body").placeholder = "Add New Body";
+
+						}
+
+					}
+					else if(selected == "Edit")
+					{
+						document.getElementById("add_button").style.display = "none";
+						document.getElementById("update_button").style.display = "block";
+						document.getElementById("add-title").style.display = "none";
+						document.getElementById("add-body").style.display = "none";
+
+
+						if(typ == "fdiv")
+						{
+							var title = document.getElementById("fdiv").childNodes[3].firstChild.nodeValue;
+							document.getElementById("update-title").value = title;
+
+							document.getElementById("update-title").style.display = "block";
+						}
+						else
+						{
+
+							var x = document.getElementsByClassName("sdiv")[0] ;
+							var body = x.childNodes[1].firstChild.nodeValue
+							document.getElementById("update-body").value = body;
+
+							document.getElementById("update-body").style.display = "block";
+
+						}
+					}
+					else
+					{
+						document.getElementById("update-title").style.display = "none";
+						document.getElementById("add-title").style.display = "none";
+						document.getElementById("add_button").style.display = "none";
+						document.getElementById("update_button").style.display = "none";
+						document.getElementById("add-body").style.display = "none";
+						document.getElementById("update-body").style.display = "none";
+					}
+
+			}
+
+
+
+			function add()
+			{
+				var selected_list = document.getElementById("select_content")
+				var typ = selected_list.options[selected_list.selectedIndex].value;
+
+				if(typ == "fdiv")
+				{
+					var value = document.getElementById("add-title").value;
+					document.getElementById("fdiv").childNodes[3].innerHTML  = value ;
+				}
+				else
+				{
+					var value = document.getElementById("add-body").value;
+
+					var x = document.getElementsByClassName("sdiv")[0] ;
+					x.childNodes[1].innerHTML = value;
+				}
+
+			}
+
+
+
+			function update()
+			{
+				var selected_list = document.getElementById("select_content")
+				var typ = selected_list.options[selected_list.selectedIndex].value;
+
+				if(typ == "fdiv")
+				{
+					var value = document.getElementById("update-title").value;
+					document.getElementById("fdiv").childNodes[3].innerHTML  = value ;
+				}
+				else
+				{
+					var value = document.getElementById("update-body").value;
+
+					var x = document.getElementsByClassName("sdiv")[0] ;
+					x.childNodes[1].innerHTML = value;
+				}
+
+			}
+
+			function closee()
+			{
+
+					document.getElementById("select_action").style.display = "none";
+					document.getElementById("select_action_title_label").style.display = "none";
+					document.getElementById("update-title").style.display = "none";
+					document.getElementById("add-title").style.display = "none";
+					document.getElementById("add_button").style.display = "none";
+					document.getElementById("update_button").style.display = "none";
+					document.getElementById("select_content").value = "";
+					document.getElementById("update-title").style.display = "none";
+					document.getElementById("add-body").style.display = "none";
+					document.getElementById("update-body").style.display = "none";
+					document.getElementById("close_button").style.display = "none";
+
+			}
+
+
+
+
+
+
+
+		</script>
+	</head> 
+	<body style="background-color:aliceblue;">
+		<div id="fdiv">
+			<button title="EDIT PAGE" onclick="edit();" >&#9998</button>
+
+			<center style="margin-top : 100px;"> KRITTER SOFTWARE TECHNOLOGY </center>
+
+		</div>
+
+<!--		<button title="ADD COTENTS" onclick=""  style="margin-left : 10px;">&#43;</button>-->
+		<div class="sdiv" >
+			<pre>
+				Highly customizable, white-label,
+					on-premise software platforms
+				for
+				digital ad trading
+					and
+				data management.
+			</pre>
+			<hr>
+			<p style="text-align : center; font-size : 45px ; font-family: Arial, Helvetica, sans-serif;	">
+				<u>WE PROVIDE</u>
+				<br>
+				<br>
+			 	<div style="position : absolute; margin-left : 5%">
+				 &#8227;	DIGITAL AD TRADING
+					<br>
+				</div>
+
+				<div style="position : absolute; margin-left:30%;">
+				&#8227;	DATA MANAGEMENT
+                                </div>
+				<div style="position : absolute; margin-left:55%;">
+				&#8227;	WHITE-LABEL
+                                </div>
+				<div style=" margin-left:75%;">
+				&#8227;	ON-PREMISE 
+                                </div>
+
+			</p>
+		</div>
+		
+		<br>
+		<br>
+		<br>
+		<br>
+
+		<div id="tdiv">
+			<div style="float :left">
+
+				<pre style="font-size:25px; margin-left:-300px;">
+
+					CONTACT US:
+					-----------
+
+					(+91) 998 003 8068
+
+					132, 1st A Cross Road
+					Koramangala 5th Block,
+					Bengaluru, Karnataka - 560095
+					India
+				</pre>
+
+			</div>
+			
+			<div style="float:right; padding-right:20%; font-size : 30px;">
+				<h3> <u>WRITE TO US</u> </h3>
+				<form>
+					<input type="text" placeholder="Enter your Name" required>
+					<br>
+					<br>
+
+					<input type="email" placeholder="Enter your E-mail" required>
+					<br>
+					<br>
+
+					<textarea  id="" cols="50" rows="5" placeholder="Enter your Query"></textarea>
+					<br>
+					<br>
+
+					<button style="float:none;" onclick="">SUBMIT</button>
+
+				</form>
+			</div>
+		</div>
+
+		<br>
+		<br>
+
+		<div id="hdiv" >
+			<button title="CLOSE EDIT" onclick="close_edit();" style="float : right">&#10007;</button>
+			<h1>EDIT VIEW</h1>
+
+			<hr>
+			<form style="font-size : 30px; padding : 20px;">
+				<label >Select Content :</label>
+				<br>
+
+				<select onchange="show_select();" id="select_content" style="font-size:25px; padding:10px;">
+					<option value="">
+						--Select--
+					</option>
+						<option value="fdiv">
+							TITLE
+						</option>
+						<option value="sdiv">
+							BODY
+						</option>
+
+				</select>
+				<hr>
+
+				<label id="select_action_title_label">Select Action :</label>
+				<select  onchange="show_action();" id="select_action" style="font-size:25px; padding:10px;">
+					<option value="">
+						--Select--
+					</option>
+					<option value="New">
+						ADD NEW
+					</option>
+					<option value="Edit">
+						EDIT
+					</option>
+
+				</select>
+
+				<hr>
+
+				<input type="text" id="add-title" placeholder="Add New Title">
+
+				<input type="text" id="update-title">
+
+				<textarea id="add-body" cols="50" rows="5">
+
+				</textarea>
+
+				<textarea id="update-body" cols="50" rows="5" >
+
+				</textarea>
+
+				<hr>
+
+				<input type="button" value="ADD" id="add_button" onclick="add()">
+
+
+				 <input type="button" value="UPDATE" id="update_button" onclick="update()">
+
+
+				<input type="button" value="CLOSE" id="close_button" onclick="closee()" style="top: -40px; left: 150px; position: relative;">
+
+
+			</form>
+
+
+		</div>
+
+	</body>
+</html>
